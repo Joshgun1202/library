@@ -8,9 +8,9 @@ from drf_yasg import openapi
 
 schema_view = get_schema_view(
     openapi.Info(
-        title="Online Library API",
+        title="Library API",
         default_version='v1',
-        description="Online Library API",
+        description="Library API",
     ),
     public=True,
     permission_classes=(permissions.AllowAny,),
